@@ -43,12 +43,12 @@ function filterTodos(e) {
 function deleteTodo(e) {
 	const liItem = e.target.parentElement.parentElement;
 	if (e.target.className === "fa fa-remove") {
-		e.target.parentElement.parentElement.parentElement.remove();
-		deleteTodoFromStorage(e.target.parentElement.parentElement.parentElement.textContent);
+		liItem.parentElement.remove();
+		deleteTodoFromStorage(liItem.parentElement.textContent);
 		showAlert("success", "Todo başarıyla silindi.");
 	}
 	if (e.target.className === "form-check-input mr-2") {
-		if (!liItem.classList.contains("textDecoration")) {
+		if (liItem.classList.contains("textDecoration")) {
 			liItem.classList.remove('textDecoration');
 		} else {
 			liItem.classList.add('textDecoration');
