@@ -1,7 +1,6 @@
 # https://codepen.io/beydacar1/pen/YzqzVYb
 
 
-# Todo filtering project
+# I made todo app with Javascript. I used Bootstrap and javascrip in this project.
 
 
-# bootstrap javascript languages used
