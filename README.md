@@ -1,7 +1,7 @@
-# todo-app-first-js-project
+# https://codepen.io/beydacar1/pen/YzqzVYb
 
 
-Todo filtering project
+# Todo filtering project
 
 
-bootstrap javascript languages used
+# bootstrap javascript languages used
